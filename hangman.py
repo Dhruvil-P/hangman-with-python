@@ -23,12 +23,12 @@ display = []  # blank list to hold the _
 randomIndex = random.randint(0, wordListLen - 1)
 chosenWord = wordList[randomIndex]
 chosenWordLen = len(chosenWord)
-print(chosenWord)
+
 
 # for inserting _ till the word's length
 for j in range(chosenWordLen):
     display.append('_')
-print(chosenWord)
+
 
 endGame = False
 lives = 6
